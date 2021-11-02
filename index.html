@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Practice</title>
+    <!-- Link to your external CSS -->
+
+</head>
+<body>
+
+    <!-- Center -->
+    <h1>The Wonders of CSS!</h1>
+
+    <hr>
+
+    <h2>Fun With Text!</h2>
+    <style>
+        .red-text {
+            color:red;
+        }
+        .blue-text {
+            color:blue;
+        }
+        .green-text{
+            color:green;
+        }
+        .orange-text{
+            color:orange;
+        }
+
+        .large-text { font-size: 36px;}
+        .small-text {font-size:10px;}
+        .margin  {margin: 20px 350px 20px 350px;} 
+        .bold {font-weight:bold;}
+        .font{font-family:monospace;}
+        #styledImage{border:100px solid orange }
+    </style>
+
+
+    <!-- Change text color -->
+    <p class= "red-text"> this text is red </p>
+    <p class="blue-text"> This text is blue.</p>
+    <p class="green-text">This text is green.</p>
+
+    <!-- Change font-size -->
+    <p class="large-text"> This text is BIG!</p>
+    <p class="small-text"> This text is tiny...</p>
+
+    <!-- Center -->
+    <p class="margin"> This text is centered</p>
+
+    <!-- Bold -->
+    <p class="bold"> If we have something important to say, we can make it bold!</p>
+
+    <!-- Change font -->
+    <p class="font"> We can even change our font-family if we are feeling creative!</p>
+
+    <!-- Multiple attributes -->
+    <p class="bold orange-text large-text ">Try combining multiple attributes to make big, orange, bold text!</p>
+
+    <hr>
+
+    <!-- Classes -->
+    <p class="green-text">We can also apply the same style to multiple HTML elements.</p>
+    <p class="green-text">Each one of these lines is within a different &ltp&gt tag, yet they all have the same styling.</p>
+    <p class="green-text">That's because they are all a part of the same CSS class!</p>
+    <p class="green-text">CSS classes let us define a style once and let us then apply it to multiple elements!</p>
+    <p class="green-text">In your external CSS file, create a style for the class styledFont.</p>
+    <p class="green-text">Notice how every time you change the class styledFont, all of the text changes.</p>
+
+    <hr>
+
+    <p>Just as classes can be used to style multiple elements, id's are used to style single, unique elements. Give the following image a border by adding style attributes to your external CSS file. (Hint: Remember to include a border width, style, and color.)</p>
+
+    <!-- Border & id -->
+    <img id="styledImage" alt="Picture of the CSS Icon" src="https://upload.wikimedia.org/wikipedia/commons/f/f6/Faenza-text-css.svg">
+
+    <hr>
+
+</body>
+</html>
